@@ -138,7 +138,7 @@ const [orderPlaced, setOrderPlaced] = useState(false);
 
   <div className="mt-5">
     <a
-      href="tel:9959343383"
+      href="tel:9959343883"
       className="inline-block bg-green-600 text-white px-8 py-4 rounded-2xl text-xl font-bold shadow-lg hover:bg-green-700 transition"
     >
       📞 Call Now
@@ -400,7 +400,7 @@ const [orderPlaced, setOrderPlaced] = useState(false);
 
               <button
   onClick={() => {
-    const whatsappNumber = "919959343383";
+    const whatsappNumber = "919959343883";
 
     const message = `
 🛒 LG Accessories Order
