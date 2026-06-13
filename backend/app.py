@@ -180,7 +180,7 @@ if __name__ == "__main__":
             product4.usage = "Replace damaged lint filter"
             product4.specifications = "Original LG Magic Filter"
 
-            product5 = Product.query.get(5)
+        product5 = Product.query.get(5)
         if product5:
             product5.name = "LG Front Load Washing Machine Cover"
             product5.description = "Premium waterproof and dustproof cover for front load washing machines"
