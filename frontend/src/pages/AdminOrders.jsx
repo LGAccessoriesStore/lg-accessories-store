@@ -6,7 +6,7 @@ function AdminOrders() {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:5000/api/orders")
+      .get("https://lg-accessories-store.onrender.com/api/orders")
       .then((res) => setOrders(res.data))
       .catch((err) => console.log(err));
   }, []);

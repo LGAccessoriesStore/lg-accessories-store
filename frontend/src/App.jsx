@@ -33,7 +33,7 @@ const productImages = {
 };
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:5000/api/products")
+      .get("https://lg-accessories-store.onrender.com/api/products")
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -79,7 +79,7 @@ const productImages = {
   <button></button>
 
   <a
-    href="tel:+917997700939"
+    href="tel:+919959343883"
     className="cursor-pointer hover:text-gray-200"
   >
     CONTACT

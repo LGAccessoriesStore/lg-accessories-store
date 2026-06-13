@@ -33,7 +33,7 @@ const productImages = {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:5000/api/products")
+      .get("https://lg-accessories-store.onrender.com/api/products")
       .then((res) => {
         const selectedProduct = res.data.find(
           (item) => item.id === parseInt(id)
@@ -155,7 +155,7 @@ const productImages = {
               <div className="flex flex-wrap gap-4">
 
                 <a
-                  href={`https://wa.me/7997700939?text=Hi, I want to order ${product.name}`}
+                  href={`https://wa.me/9959343883?text=Hi, I want to order ${product.name}`}
                   target="_blank"
                   rel="noreferrer"
                   className="bg-green-600 text-white px-6 py-3 rounded-lg"

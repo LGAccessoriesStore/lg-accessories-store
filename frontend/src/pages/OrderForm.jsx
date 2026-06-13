@@ -17,7 +17,7 @@ function OrderForm() {
 const [orderPlaced, setOrderPlaced] = useState(false);
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:5000/api/products")
+      .get("https://lg-accessories-store.onrender.com/api/products")
       .then((res) => {
         const selectedProduct = res.data.find(
           (item) => item.id === parseInt(id)
@@ -50,7 +50,7 @@ const [orderPlaced, setOrderPlaced] = useState(false);
     }
 
     try {
-      await axios.post("http://127.0.0.1:5000/api/orders", {
+      await axios.post("https://lg-accessories-store.onrender.com/api/orders", {
         customer_name: formData.customerName,
         mobile: formData.mobile,
         address: formData.address,
