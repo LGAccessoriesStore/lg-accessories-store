@@ -51,37 +51,29 @@ const productImages = {
 
       {/* Navbar */}
       <nav className="bg-[#a50034] text-white shadow-lg sticky top-0 z-50">
-        <div className="w-full px-4 md:px-10 lg:px-16 py-6 flex justify-between items-center">
+  <div className="w-full px-4 md:px-10 lg:px-16 py-6 flex justify-between items-center">
 
-  
+    <div>
+      <h1 className="text-2xl md:text-5xl font-bold leading-none">
+        LG Accessories
+      </h1>
 
-  <div>
-    <h1 className="text-2xl md:text-5xl font-bold leading-none">
-      LG Accessories 
-    </h1>
+      <p className="text-xs md:text-sm mt-2 text-white/70">
+        AJ Enterprises | Authorized LG Service Center
+      </p>
+    </div>
 
-    <p className="text-xs md:text-sm mt-2 text-white/70">
-  AJ Enterprises | Authorized LG Service Center
-</p>
+    <div className="hidden md:flex gap-10 text-lg">
+      <a
+        href="tel:+918074856866"
+        className="cursor-pointer hover:text-gray-200"
+      >
+        CONTACT
+      </a>
+    </div>
+
   </div>
-
-</div>
-
-  <div className="hidden md:flex gap-10 text-lg">
-  <button></button>
-  <button></button>
-  <button></button>
-
-  <a
-    href="tel:+918074856866"
-    className="cursor-pointer hover:text-gray-200"
-  >
-    CONTACT
-  </a>
-</div>
-
-</div>
-      </nav>
+</nav>
 
      
 
