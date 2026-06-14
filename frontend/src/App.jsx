@@ -73,7 +73,7 @@ const productImages = {
   <button></button>
 
   <a
-    href="tel:+919959343883"
+    href="tel:+918074856866"
     className="cursor-pointer hover:text-gray-200"
   >
     CONTACT
