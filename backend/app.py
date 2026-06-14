@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
         product1 = Product.query.get(1)
         if product1:
-            product1.name = "LG Washing Machine Powder Descaler"
+            product1.name = "LG Washing Machine Power Descaler"
             product1.description = "Removes tough scale, detergent residue and bad odor from washing machines"
             product1.price = 799
             product1.benefits = "Deep cleaning and scale removal"
