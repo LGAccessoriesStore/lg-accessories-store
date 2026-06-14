@@ -233,17 +233,7 @@ const [orderPlaced, setOrderPlaced] = useState(false);
 
               <div className="grid md:grid-cols-3 gap-3 mt-6">
 
-                <div className="bg-green-500 p-3 rounded-xl text-center font-bold">
-                  ✓ Genuine
-                </div>
-
-                <div className="bg-blue-500 p-3 rounded-xl text-center font-bold">
-                  🚚 Fast
-                </div>
-
-                <div className="bg-yellow-400 text-black p-3 rounded-xl text-center font-bold">
-                  💵 COD
-                </div>
+                
 
               </div>
 
@@ -375,25 +365,7 @@ const [orderPlaced, setOrderPlaced] = useState(false);
 
             </div>
 
-            {/* Trust Badges */}
-            <div className="grid md:grid-cols-3 gap-4 mt-8">
-
-              <div className="bg-white border rounded-2xl p-4 shadow text-center">
-                <div className="text-3xl">🔒</div>
-                <p className="font-bold">Secure Checkout</p>
-              </div>
-
-              <div className="bg-white border rounded-2xl p-4 shadow text-center">
-                <div className="text-3xl">🚚</div>
-                <p className="font-bold">Free Delivery</p>
-              </div>
-
-              <div className="bg-white border rounded-2xl p-4 shadow text-center">
-                <div className="text-3xl">⭐</div>
-                <p className="font-bold">100% Genuine LG</p>
-              </div>
-
-            </div>
+            
 
             {/* Buttons */}
             <div className="grid md:grid-cols-2 gap-5 mt-10">
