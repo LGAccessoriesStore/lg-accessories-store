@@ -53,22 +53,16 @@ const productImages = {
       <nav className="bg-[#a50034] text-white shadow-lg sticky top-0 z-50">
         <div className="w-full px-4 md:px-10 lg:px-16 py-6 flex justify-between items-center">
 
-  <div className="flex items-center gap-4">
   
-  <img
-    src={lgLogo}
-    alt="LG Logo"
-    className="w-14 h-14 md:w-20 md:h-20 object-contain bg-white rounded-full p-1"
-  />
 
   <div>
     <h1 className="text-2xl md:text-5xl font-bold leading-none">
-      LG Accessories Store
+      LG Accessories 
     </h1>
 
     <p className="text-xs md:text-sm mt-2 text-white/70">
-      Original LG Accessories Delivered Directly To Your Doorstep
-    </p>
+  AJ Enterprises | Authorized LG Service Center
+</p>
   </div>
 
 </div>
