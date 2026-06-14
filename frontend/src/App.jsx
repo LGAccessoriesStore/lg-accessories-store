@@ -16,7 +16,7 @@ function App() {
   const [search, setSearch] = useState("");
 
  const originalPrices = {
-  "LG Washing Machine Power Descaler": 899,
+  "LG Washing Machine Powder Descaler": 899,
   "LG GentlCare Liquid Detergent": 399,
   "LG Washing Machine Stand": 1599,
   "LG Top Load Washing Machine Magic Filter": 563,
@@ -24,7 +24,7 @@ function App() {
   "LG Top Load Washing Machine Cover": 769,
 };
 const productImages = {
-  "LG Washing Machine Power Descaler": descaler,
+  "LG Washing Machine Powder Descaler": descaler,
   "LG GentlCare Liquid Detergent": waterfilter,
   "LG Washing Machine Stand": stand,
   "LG Top Load Washing Machine Magic Filter": magicfilter,
