@@ -14,6 +14,10 @@ db.init_app(app)
 
 with app.app_context():
     db.create_all()
+    product1 = Product.query.get(1)
+    if product1:
+        product1.name = "LG Washing Machine Powder Descaler"
+        db.session.commit()
 
     if Product.query.count() == 0:
 
@@ -199,7 +203,7 @@ if __name__ == "__main__":
             product6.benefits = "Protects from dust, moisture and scratches"
             product6.usage = "Cover washing machine when not in use"
             product6.specifications = "Top Load Model Compatible"
-
+        
         db.session.commit()
 
         print("Products Updated Successfully")
