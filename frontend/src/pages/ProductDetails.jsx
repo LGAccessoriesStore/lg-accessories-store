@@ -163,6 +163,13 @@ const productImages = {
                   WhatsApp Order
                 </a>
 
+                <a
+    href="tel:+919959343883"
+    className="bg-blue-600 text-white px-6 py-3 rounded-lg"
+  >
+    📞 Call To Order
+  </a>
+
                <Link
                 to={`/order/${product.id}`}
                 className="bg-[#a50034] text-white px-6 py-3 rounded-lg"
