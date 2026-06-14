@@ -169,14 +169,14 @@ const productImages = {
   >
     📞 Call To Order
   </a>
-
+{/*
                <Link
                 to={`/order/${product.id}`}
                 className="bg-[#a50034] text-white px-6 py-3 rounded-lg"
             >
               Buy Now
             </Link>
-
+*/}
               </div>
 
             </div>
