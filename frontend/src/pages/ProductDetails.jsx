@@ -152,8 +152,7 @@ const productImages = {
 
               </div>
 
-              <div className="flex flex-wrap gap-4">
-
+              <div className="flex flex-col md:flex-row justify-center items-center gap-4">
                 <a
                   href={`https://wa.me/+918074856866?text=Hi, I want to order ${product.name}`}
                   target="_blank"
