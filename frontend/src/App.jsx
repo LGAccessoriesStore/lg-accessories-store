@@ -1,6 +1,5 @@
 import AdminOrders from "./pages/AdminOrders";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import ProductDetails from "./pages/ProductDetails";
 import lgLogo from "./assets/lg-logo.jpeg";
@@ -12,7 +11,44 @@ import frontloadcover from "./assets/products/frontloadcover.jpeg";
 import toploadcover from "./assets/products/toploadcover.jpeg";
 import OrderForm from "./pages/OrderForm";
 function App() {
-  const [products, setProducts] = useState([]);
+  const products = [
+  {
+    id: 1,
+    name: "LG Washing Machine Powder Descaler",
+    description: "Removes tough scale, detergent residue and bad odor from washing machines",
+    price: 799,
+  },
+  {
+    id: 2,
+    name: "LG GentlCare Liquid Detergent",
+    description: "Deep cleaning liquid detergent for clothes with long-lasting freshness",
+    price: 299,
+  },
+  {
+    id: 3,
+    name: "LG Washing Machine Stand",
+    description: "Heavy duty anti-vibration washing machine stand",
+    price: 1399,
+  },
+  {
+    id: 4,
+    name: "LG Top Load Washing Machine Magic Filter",
+    description: "Original LG lint filter for top load washing machines",
+    price: 499,
+  },
+  {
+    id: 5,
+    name: "LG Front Load Washing Machine Cover",
+    description: "Premium waterproof and dustproof cover for front load washing machines",
+    price: 699,
+  },
+  {
+    id: 6,
+    name: "LG Top Load Washing Machine Cover",
+    description: "Premium waterproof and dustproof cover for top load washing machines",
+    price: 659,
+  }
+];
   const [search, setSearch] = useState("");
 
  const originalPrices = {
@@ -31,12 +67,7 @@ const productImages = {
   "LG Front Load Washing Machine Cover": frontloadcover,
   "LG Top Load Washing Machine Cover": toploadcover,
 };
-  useEffect(() => {
-    axios
-      .get("https://lg-accessories-store.onrender.com/api/products")
-      .then((res) => setProducts(res.data))
-      .catch((err) => console.log(err));
-  }, []);
+  
 
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(search.toLowerCase())
